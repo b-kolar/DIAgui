@@ -28,7 +28,7 @@ ui <- fluidPage(
                              .navbar-default > .container-fluid > .navbar-nav > li[class=active] > a {background-color: #003EFF; color: #ffffff}
                              .navbar-default > .container-fluid > .navbar-nav > li[class=active] > a:hover {background-color: #003EFF; color: #ffffff}
                              .navbar-default > .container-fluid > .navbar-header > .navbar-brand {color: #ffffff; font-size: 22px}
-                             * {font-family: 'Rockwell'}
+                             * {font-family: 'Inter'}
                              body {background-color: #C0CEFF}
                              .nav-tabs > li > a {background-color: #3D7AEC; color: #ffffff}
                              .nav-tabs > li > a:hover {background-color: #165CDE; color: #ffffff}
