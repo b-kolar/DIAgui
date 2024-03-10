@@ -21,6 +21,8 @@ options(spinner.color = "#3D7AEC", spinner.color.background = "000000", spinner.
 
 ui <- fluidPage(
   useShinydashboard(), #allow to use box without dashboard
+  tags$link(rel = "stylesheet", href = "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"),
+
 
   tags$head(tags$style(HTML(".navbar-default {background-color: #3D7AEC !important; color = #ffffff}
                              .navbar-default > .container-fluid > .navbar-nav > li > a {color: #ffffff; font-size: 18px}
