@@ -21,8 +21,7 @@ options(spinner.color = "#3D7AEC", spinner.color.background = "000000", spinner.
 
 ui <- fluidPage(
   useShinydashboard(), #allow to use box without dashboard
-  tags$link(rel = "stylesheet", href = "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"),
-
+  tags$link(rel = "stylesheet", href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"),
 
   tags$head(tags$style(HTML(".navbar-default {background-color: #3D7AEC !important; color = #ffffff}
                              .navbar-default > .container-fluid > .navbar-nav > li > a {color: #ffffff; font-size: 18px}
@@ -30,7 +29,7 @@ ui <- fluidPage(
                              .navbar-default > .container-fluid > .navbar-nav > li[class=active] > a {background-color: #003EFF; color: #ffffff}
                              .navbar-default > .container-fluid > .navbar-nav > li[class=active] > a:hover {background-color: #003EFF; color: #ffffff}
                              .navbar-default > .container-fluid > .navbar-header > .navbar-brand {color: #ffffff; font-size: 22px}
-                             * {font-family: 'Roboto'}
+                             * {font-family: 'Inter'}
                              body {background-color: #C0CEFF}
                              .nav-tabs > li > a {background-color: #3D7AEC; color: #ffffff}
                              .nav-tabs > li > a:hover {background-color: #165CDE; color: #ffffff}
